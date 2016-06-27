@@ -6,16 +6,17 @@
     <script src="js/app.js"></script>
     <script src="views/home/home.js"></script>
     <script src="views/incrementer/incrementer.js"></script>
+	<script src="views/params/params.js"></script>
 
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
 </head>
 <body>
 <div class="container">
-    <h1>Incrementer <small>Une application qui a tout pour plaire...</small></h1>
+    <h1>Incrementer <small>Une application patastique !</small></h1>
     <ul class="nav nav-tabs">
         <li role="presentation" ui-sref-active="active"><a ui-sref="home">Home</a></li>
         <li role="presentation" ui-sref-active="active"><a ui-sref="incrementer">Incrementer</a></li>
-        <li role="presentation" ui-sref-active="active"><a href="#">Params</a></li>
+        <li role="presentation" ui-sref-active="active"><a ui-sref="params">Params</a></li>
     </ul>
     <div ui-view></div>
 </div>
