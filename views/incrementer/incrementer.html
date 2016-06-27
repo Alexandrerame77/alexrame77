@@ -1,4 +1,8 @@
-Hello Incrementer!
+<button ng-click="moins()" class="btn btn-default">-</button>
 <p>
-    Nous sommes le: {{date}}
+	<input type = "number" ng-model="nombre" class="form-control">
 </p>
+<button ng-click="plus()" class="btn btn-default">+</button>
+<ul ng-repeat="value in history">
+	<li> {{value}} </li>
+</ul>
